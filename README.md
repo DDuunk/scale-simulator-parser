@@ -5,4 +5,4 @@ A Python-based parser for my [Scale Simulator](https://github.com/DDuunk/scale-s
 # Dependencies
 
 * [Python3](https://www.python.org/download/releases/3.0/)
-* Socket.IO ```shell pip install python-socketio```
+* Socket.IO ```pip install python-socketio```
