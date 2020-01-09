@@ -1,6 +1,6 @@
 # Scale Simulator Parser
 
-A Python-based parser for my [Scale Simulator](https://github.com/DDuunk/scale-simulator.git) written for Raspberry Pi.
+A Python-based parser to an API for my [Scale Simulator](https://github.com/DDuunk/scale-simulator.git) written for Raspberry Pi.
 
 # Dependencies
 
