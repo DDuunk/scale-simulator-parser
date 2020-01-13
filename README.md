@@ -28,7 +28,7 @@ python3 src/serial_ports.py
 
 The result should be content ```['/dev/ttyACM0', '/dev/ttyAMA0']```.
 In this case the correct port is `/dev/ttyACM0`.
-If you are not sure which port is the correct one execute the file twice, once with the cable connected and once disconnected. 
+If you are not sure which port is the correct one execute the file twice, once with the cable connected and once disconnected.  
 *Note: port /dev/ttyAMA0 can be ignored as it is used by UART*
 
 Open the `./src/parser.py` file in your editor and set the serial port to your acquired port.
