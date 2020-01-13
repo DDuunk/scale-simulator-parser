@@ -19,13 +19,17 @@ $ git clone https://github.com/DDuunk/scale-simulator-parser.git
 
 ## Specify serial port
 
-To search for available serial ports on Raspberry Pi use the following command
+This project includes a `./src/serial_ports.py` file, this file is used for getting the correct serial port number.
+To execute this file, run the following command
 
 ```shell
-ls /dev/tty*
+python3 src/serial_ports.py
 ```
 
-The result should be content ```/dev/ttyACM0``` and you are good to go.
+The result should be content ```['/dev/ttyACM0', '/dev/ttyAMA0']```.
+In this case the correct port is `/dev/ttyACM0`.
+If you are not sure which port is the correct one execute the file twice, once with the cable connected and once disconnected.
+*Note: port /dev/ttyAMA0 can be ignored as it is used by UART*
 
 Open the `./src/parser.py` file in your editor and set the serial port to your acquired port.
 
